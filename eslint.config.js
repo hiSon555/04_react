@@ -1,3 +1,6 @@
+// 문법 검사기 ESLINT 설정 파일
+// ESLINT에게 어떠한 조건의 문법을 검사해달라고 하는지를 설정하는 파일
+
 import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'

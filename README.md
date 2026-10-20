@@ -1,16 +1,20 @@
-# React + Vite
+# README 파일
+* notion을 사용하는 것처럼, 해당 단축어로 글을 작성하면 화면에 내용을 출력해주는 파일
+* 이렇게 보여지는 방식은 markdown 파일이라고 함
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# README 파일을 작성하면 보여지는 곳
+* Github의 레포지토리 첫 화면
+* 그렇기에 README.md 파일은 이 프로젝트를 보는 사람에게 설명할 내용을 작성하는 파일
 
-Currently, two official plugins are available:
+# Lecture 01: Todo List
+간단한 할 일 목록(Todo List)를 관리할 수 있는 웹 애플리케이션 실습 프로젝트입니다. 웹 실습 강의 및 자바스크립트 기초 학습 용도로 제작되었습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 주요 기능
+* **할 일 추가** : 새로운 할 일을 입력하여 목록에 추가합니다.
+* **할 일 목록 조회** : 등록된 전체 할 일 목록을 확입합니다.
+* **완료 상태 토글** : 클릭 시 할 일의 완료 여부(체크/체크 해제)를 전환합니다.
+* **할 일 삭제** : 완료되었거나 필요없는 할 일을 목록에서 제거합니다.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 기술 스택 (Tech Stack)
+* **Frontend** : HTML5, CSS3, JavaScript(ES6+)
+* **Package Manager / Build Tool** : pnpm / Vite
